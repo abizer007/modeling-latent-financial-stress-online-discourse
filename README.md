@@ -23,9 +23,9 @@ Instead of relying on retrospective self-reporting (e.g., DASS-21), this archite
 This project dynamically pulls, normalizes, and merges four distinct, real-world Hugging Face datasets into an 11MB unified corpus.
 
 1. **[twitter-financial-news-sentiment](https://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment)**: Finance-specific short-form discourse (Bearish / Bullish / Neutral).
-2. **[financial_phrasebank](https://huggingface.co/datasets/financial_phrasebank)**: Expert-annotated financial news sentences (Negative / Neutral / Positive).
+2. **[financial_phrasebank](https://huggingface.co/datasets/takala/financial_phrasebank)**: Expert-annotated financial news sentences (Negative / Neutral / Positive).
 3. **[dair-ai/emotion](https://huggingface.co/datasets/dair-ai/emotion)**: 6-class social media emotion distributions from Twitter data.
-4. **[go_emotions](https://huggingface.co/datasets/go_emotions)**: 28-class fine-grained emotional taxonomy derived from Reddit.
+4. **[go_emotions](https://huggingface.co/datasets/google-research-datasets/go_emotions)**: 28-class fine-grained emotional taxonomy derived from Reddit.
 
 **Preprocessing Strategy:**
 - Preservation of capitalization, punctuation, and contextual syntax (for Transformer attention).
